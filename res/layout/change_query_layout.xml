@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	
+	<!-- 起点文本框 -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/begin_stop"
+        android:textColor="@color/sc_gray"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	<!-- 起点输入框 -->
+    <EditText
+        android:id="@+id/txt_begin_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress" >
+
+        <requestFocus />
+    </EditText>
+	
+	<!-- 终点文本框 -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/end_stop"
+        android:textColor="@color/sc_gray"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	<!-- 终点输入框 -->
+    <EditText
+        android:id="@+id/txt_end_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress" />
+	
+    <LinearLayout  
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:orientation="horizontal">    
+		<!-- 查询换乘按钮 -->
+	    <Button
+	        android:id="@+id/bt_change_query"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@string/change_query" />
+		<!-- 交换按钮 -->
+	    <Button
+	        android:id="@+id/bt_swap_begin_end"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@string/swap_begin_end"/>
+	</LinearLayout>
+</LinearLayout>

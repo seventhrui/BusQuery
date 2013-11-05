@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">公交查询</string>
+    <!--  -->
+    <string name="begin_stop">起点</string>
+    <string name="end_stop">终点</string>
+    <string name="change_query">查询换乘</string>
+    <string name="swap_begin_end">交换</string>
+    <string name="stop_name">站点名</string>
+    <string name="stop_query">查询站点</string>
+    <string name="route_name">线路名</string>
+    <string name="route_query">查询线路</string>
+    <string name="query_result">查询结果</string>
+</resources>
